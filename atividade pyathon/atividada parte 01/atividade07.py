@@ -1,0 +1,5 @@
+valor = int(input("digite o valor:"))
+juros = int(input("digite o juros:"))
+anos = int(input("digite o numero de anos:"))
+montante = valor + (valor * juros * anos / 100)
+print("O valor do montante é:" , montante)
